@@ -1,0 +1,171 @@
+* {
+  text-decoration: none;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+  max-width: 100%;/*este y el que sigue es para que la página se achique o agrande segun se modifique*/
+  height: auto;
+
+
+}
+
+body {
+
+ /* font-family: "Open Sans", sans-serif;*/
+  background-color: #ecf0f1;
+  font-family: "Latin Modern Roman";
+}
+
+section {
+  width: 100%;
+  max-width: 600px; /*TAMAÑO DE CAJA DE SECCION*/
+  margin: 0px auto;
+  display: table;
+  position: relative;
+}
+
+
+.imagenes {
+    padding-left: 10px;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
+
+h1 {  /*título principal de bienvenida*/
+  margin: 0px auto;
+  font-size: 40px;
+  padding: 0px;
+  color: #000000;
+  text-align: center;
+  
+}
+
+
+h2 { /*titulo de sections*/
+  font-size: 20px;
+  font-weight: 200;
+  color: #000;
+  border-bottom: 1px none; 
+  display: flex;
+  padding-bottom: 1px;
+  margin-bottom: 80px;
+  text-align:center;
+}
+
+.content p { /*parrafo de sections*/
+  font-size: 20px;
+  color: #000000;
+  top: 50%;
+  left: 50%;
+}
+
+/*menu*/
+*,
+*:before,
+*:after {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+
+body, html {
+  height: 10%; /*distancia entre menú y comienzo de información*/
+  background-color:#fff ;
+  font-size: 20px;
+
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-family: "Open sans", sans-serif;
+  letter-spacing: 1px;
+  color: #000; /*color datos contacto*/
+
+}
+
+
+                  
+footer{ 
+    background: #1f1f1f;
+    padding: 2px;
+    text-align: center;
+}
+
+.contenedor-footer-content{ /*contenedor footer*/
+    justify-content: center;
+    align-items:center;
+ 
+}
+
+.contact-us{ /* copyright */
+    /*font-size: 13px;*/
+    width: 100%;
+    color: #fff;
+    text-align: center; 
+     /*tamaño el footer*/ 
+    padding-top:10px;
+    padding-bottom:10px; 
+}
+
+/*menú nuevo*/
+
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 70px; /**/
+  list-style: none;
+  background-color: #1f1f1f;
+
+}
+
+.menu li { /*opción del menú*/
+  width: 350px; /*distancia entre inicio y contacto*/
+  height: 30px;
+  transition: background-position-x 0.9s linear;
+  text-align: center;
+
+}
+.menu li a { /*contenido del menú*/
+  font-size: 22px;
+  color: #fff; /*color menú*/
+  text-decoration: none;
+  transition: all 0.45s;
+}
+
+
+
+/*imágen principal*/
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.centrado{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: #fff;
+    font-family: Bodoni MT;
+}
+
+
+/*imagenes con texto*/
+img {
+
+  position: relative;   
+
+}
+
