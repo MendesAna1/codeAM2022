@@ -67,13 +67,14 @@ h2 { /*titulo de sections*/
   margin: 0px;
   padding: 0px;
   text-align: center;
+
 }
 
 
 body, html {
-  height: 10%; /*distancia entre menú y comienzo de información*/
+  height: 10%; 
   background-color:#fff ;
-  font-size: 20px;
+  font-size: 18px;/*distancia entre menú y comienzo de información*/
 
 }
 
@@ -91,8 +92,9 @@ body, html {
                   
 footer{ 
     background: #1f1f1f;
-    padding: 2px;
+    padding: 20px;
     text-align: center;
+
 }
 
 .contenedor-footer-content{ /*contenedor footer*/
