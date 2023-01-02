@@ -12,9 +12,8 @@
 
 body {
 
- /* font-family: "Open Sans", sans-serif;*/
   background-color: #ecf0f1;
-  font-family: "Latin Modern Roman";
+  font-family: "Calibri";
 }
 
 section {
@@ -23,6 +22,14 @@ section {
   margin: 0px auto;
   display: table;
   position: relative;
+}
+
+.botondevolver{
+  background-color: white;
+  border: 1px solid green;
+  color: green;
+
+
 }
 
 
@@ -153,14 +160,14 @@ footer{
 
 }
 
-.centrado{
+.centrado{ /*texto de imágen principal*/
     position: absolute;
-    top: 40%;
-    left: 35%;
+    top: 35%;
+    left: 45%;
     transform: translate(-50%, -50%);
-    font-size: 30px;
+    font-size: 40px;
     color: #fff;
-    font-family: Bodoni MT;
+    font-family: "Courier New";
 }
 
 
