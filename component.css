@@ -29,10 +29,9 @@ section { /* CAJA DE SECCION*/
 
 }
 
-
 .content p { /*parrafo de sections*/
   font-size: 15px;
-  color: #000000;
+  color: #000;
   top: 50%;
   left: 50%;
 }
@@ -81,7 +80,6 @@ section { /* CAJA DE SECCION*/
   font-size: 20px;
   color: #fff; /*color menú*/
   text-decoration: none;
-  transition: all 0.45s;
 }
 
 
@@ -97,26 +95,27 @@ section { /* CAJA DE SECCION*/
 
 .centrado{ /*texto de imágen principal*/
     position: absolute;
-    top: 40%;
-    left: 45%;
+    top: 30%;
+    left: 28%;
     transform: translate(-50%, -50%);
-    font-size: 40px;
+    font-size: 30px;
     color: #fff;
     font-family: "Courier New";
 }
 
 
 .frontend{
-  width: 50%; /*para que quede centrado*/
-  margin: 0px auto;
+  width: 500%; /*para que quede centrado*/
   text-align: center;
   font-size: 12px;
   font-family: "Century Gothic";
 }
 
+
+
 footer{ 
     background: #1f1f1f;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 
 }
@@ -133,6 +132,6 @@ footer{
     color: #fff;
     text-align: center; 
      /*tamaño el footer*/ 
-    padding-top:10px;
-    padding-bottom:10px; 
+    padding-top:3px;
+    padding-bottom:3px; 
 }
