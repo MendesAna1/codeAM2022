@@ -135,3 +135,20 @@ footer{
     padding-top:3px;
     padding-bottom:3px; 
 }
+
+/*portfolio*/
+.portfolio{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+ 
+
+.centro{
+    font-size: 30px;
+    color: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
